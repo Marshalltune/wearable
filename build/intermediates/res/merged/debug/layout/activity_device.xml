@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/deviceListLinearLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    android:theme="@android:style/Theme.NoTitleBar">
+
+    <TextView
+        android:id="@+id/deviceText"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="#303F9F"
+        android:padding="5dp"
+        android:paddingLeft="20dp"
+        android:text="@string/sensorDevice"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp" />
+
+    <LinearLayout
+        android:id="@+id/deviceList"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:background="#66b3ff"
+        android:orientation="vertical" >
+
+    </LinearLayout>
+
+</LinearLayout>

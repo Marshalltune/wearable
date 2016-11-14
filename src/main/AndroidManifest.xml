@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.srp.wearable_multi"
+    android:versionCode="2"
+    android:versionName="2.0" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="22" />
+ 	<uses-permission android:name="android.permission.BLUETOOTH" /> 
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+  
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.srp.wearable_multi.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.srp.wearable_multi.SensorActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.srp.wearable_multi.HeartActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.srp.wearable_multi.HeartDeviceDiscoverActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.srp.wearable_multi.SensorDeviceDiscoverActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.srp.wearable_multi.DrawChartActivity"
+            android:label="@string/app_name" >
+        </activity>
+    </application>
+
+</manifest>

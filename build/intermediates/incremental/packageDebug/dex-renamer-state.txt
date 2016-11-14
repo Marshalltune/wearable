@@ -1,0 +1,7 @@
+#Sun Nov 13 20:10:20 CST 2016
+base.0=F\:\\srp\\wearable\\MyApplication\\wearable_multi\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_e17df274b0df0a2a300254b798ded93106559f71
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=F\:\\srp\\wearable\\MyApplication\\wearable_multi\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_197f9a633ad8ab39dd380c48125b7f785aa680ee\\classes.dex
+base.1=F\:\\srp\\wearable\\MyApplication\\wearable_multi\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_197f9a633ad8ab39dd380c48125b7f785aa680ee
+file.0=F\:\\srp\\wearable\\MyApplication\\wearable_multi\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_e17df274b0df0a2a300254b798ded93106559f71\\classes.dex

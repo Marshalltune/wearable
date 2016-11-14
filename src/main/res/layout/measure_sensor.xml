@@ -1,0 +1,111 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#66b3ff"
+    android:orientation="vertical"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    android:saveEnabled="true"
+    android:theme="@android:style/Theme.NoTitleBar" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/fileNameEdit"
+            android:layout_width="match_parent"
+            android:layout_height="40sp"
+            android:hint="@string/nameToInput" 
+            android:selectAllOnFocus="true"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0sp"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+        <Button
+            android:id="@+id/findDeviceButton"
+            android:layout_width="wrap_content"
+            android:layout_height="40sp"
+            android:layout_weight="1"
+            android:background="#c41f4ac4"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/scanDevice"
+            android:textSize="15sp"
+            android:textColor="#FFFFFF"
+            android:elevation="22dp"/>
+        <Button
+            android:id="@+id/watchChart"
+            android:layout_width="wrap_content"
+            android:layout_height="40sp"
+            android:layout_weight="1"
+            android:background="#66b3ff"
+            android:gravity="center"
+            android:text="@string/readChart"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp" />
+        <Button
+            android:id="@+id/startRecord"
+            android:layout_width="wrap_content"
+            android:layout_height="40sp"
+            android:layout_weight="1"
+            android:background="#c41f4ac4"
+            android:gravity="center"
+            android:text="@string/startRecord"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp" />
+        <Button
+            style="android:attr/buttonBarButtonStyle"
+            android:id="@+id/stopRecord"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="#66b3ff"
+            android:gravity="center"
+            android:text="@string/stopRecord"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/chartDispView0"
+        android:layout_width="match_parent"
+        android:layout_height="160sp"
+        android:layout_alignParentTop="true"
+        android:background="#66b3ff"
+        android:orientation="vertical" >
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/chartDispView2"
+        android:layout_width="match_parent"
+        android:layout_height="160sp"
+        android:orientation="vertical"
+        android:layout_above="@+id/linearLayout1"
+        android:layout_alignParentStart="true">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/chartDispView1"
+        android:layout_width="match_parent"
+        android:layout_height="160sp"
+        android:orientation="vertical"
+        android:layout_below="@+id/chartDispView0"
+        android:layout_alignParentStart="true">
+
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="arm64-v8a,armeabi-v7a,armeabi"
+    api-level="22"
+    density="xxhdpi"
+    format="8"
+    plugin-version="2.2.2"
+    timestamp="125397873142671"
+    token="3787482924470672941"
+    verifier="COLD_SWAP_REQUESTED" >
+
+    <task
+        name="javac"
+        duration="547" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="24" />
+    <task
+        name="verifier"
+        duration="11" />
+
+    <artifact
+        location="F:\srp\wearable\MyApplication\wearable_multi\build\intermediates\transforms\dex\debug\folders\1000\5\slice_3\classes.dex"
+        type="DEX" />
+
+    <build
+        timestamp="125217215611588"
+        verifier="BINARY_MANIFEST_FILE_CHANGE" >
+        <artifact
+            location="F:\srp\wearable\MyApplication\wearable_multi\build\outputs\apk\wearable_multi-debug.apk"
+            type="MAIN" />
+    </build>
+    <build
+        timestamp="125397873142671"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="F:\srp\wearable\MyApplication\wearable_multi\build\intermediates\transforms\dex\debug\folders\1000\5\slice_3\classes.dex"
+            type="DEX" />
+    </build>
+
+</instant-run>

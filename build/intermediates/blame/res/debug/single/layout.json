@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "F:\\srp\\wearable\\MyApplication\\wearable_multi\\build\\intermediates\\res\\merged\\debug\\layout\\device_name.xml",
+        "source": "F:\\srp\\wearable\\MyApplication\\wearable_multi\\src\\main\\res\\layout\\device_name.xml"
+    },
+    {
+        "merged": "F:\\srp\\wearable\\MyApplication\\wearable_multi\\build\\intermediates\\res\\merged\\debug\\layout\\measure_sensor.xml",
+        "source": "F:\\srp\\wearable\\MyApplication\\wearable_multi\\src\\main\\res\\layout\\measure_sensor.xml"
+    },
+    {
+        "merged": "F:\\srp\\wearable\\MyApplication\\wearable_multi\\build\\intermediates\\res\\merged\\debug\\layout\\measure_heart.xml",
+        "source": "F:\\srp\\wearable\\MyApplication\\wearable_multi\\src\\main\\res\\layout\\measure_heart.xml"
+    },
+    {
+        "merged": "F:\\srp\\wearable\\MyApplication\\wearable_multi\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "F:\\srp\\wearable\\MyApplication\\wearable_multi\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "F:\\srp\\wearable\\MyApplication\\wearable_multi\\build\\intermediates\\res\\merged\\debug\\layout\\activity_device.xml",
+        "source": "F:\\srp\\wearable\\MyApplication\\wearable_multi\\src\\main\\res\\layout\\activity_device.xml"
+    },
+    {
+        "merged": "F:\\srp\\wearable\\MyApplication\\wearable_multi\\build\\intermediates\\res\\merged\\debug\\layout\\draw_chart.xml",
+        "source": "F:\\srp\\wearable\\MyApplication\\wearable_multi\\src\\main\\res\\layout\\draw_chart.xml"
+    }
+]

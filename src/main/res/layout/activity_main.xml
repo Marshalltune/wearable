@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#66b3ff"
+     >
+
+    <TextView
+        android:id="@+id/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/heart_measure"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="请选择传感器类型"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/acc_measure"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="212dp"
+        android:text="加速度传感器"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/heart_measure"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/acc_measure"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="49dp"
+        android:text="心率传感器"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/app_name"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:textColor="#000fff"
+        android:textSize="35dp" />
+
+</RelativeLayout>
