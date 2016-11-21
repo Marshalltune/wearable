@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#66b3ff"
+    android:orientation="vertical"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    android:theme="@android:style/Theme.NoTitleBar"
+    tools:context="com.srp.heartrate.MainActivity" >
+
+    <TextView
+        android:id="@+id/heartRateU2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#66b3ff"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="150dp" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:id="@+id/findDeviceButton"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="#C5CAE9"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="搜索设备"
+            android:textColor="#000000"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/switchButton"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="#C5CAE9"
+            android:gravity="center"
+            android:text="未连接  "
+            android:textColor="#030303"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/chartDisp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_above="@+id/linearLayout1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/heartRateU2"
+        android:orientation="vertical"
+        android:background="#66b3ff">
+
+    </LinearLayout>
+
+</RelativeLayout>
+

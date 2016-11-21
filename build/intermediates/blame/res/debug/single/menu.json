@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "F:\\srp\\wearable\\MyApplication\\wearable_multi\\build\\intermediates\\res\\merged\\debug\\menu\\device_list.xml",
+        "source": "F:\\srp\\wearable\\MyApplication\\wearable_multi\\src\\main\\res\\menu\\device_list.xml"
+    },
+    {
+        "merged": "F:\\srp\\wearable\\MyApplication\\wearable_multi\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "F:\\srp\\wearable\\MyApplication\\wearable_multi\\src\\main\\res\\menu\\main.xml"
+    }
+]

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">基于蓝牙的可穿戴人体健康监测系统</string>
+    <string name="act_heart">heart</string>
+    <string name="act_sensor">sensor</string>
+    <string name="act_device">device</string>
+    <string name="acc">加速度</string>
+    <string name="heart_device">心率设备</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="draw_chart">画图</string>
+    <string name="action_settings">Settings</string>
+    <string name="scanDevice">搜索设备</string>
+    <string name="readChart">"查看波形图  "</string>
+    <string name="startRecord">"开始记录  "</string>
+    <string name="stopRecord">"停止记录  "</string>
+    <string name="inputName">输入文件名</string>
+    <string name="nameToInput">输入要命名的文件名</string>
+    <string name="sensorDevice">传感器设备</string>
+
+
+</resources>
